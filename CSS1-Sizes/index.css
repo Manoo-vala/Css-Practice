@@ -1,0 +1,91 @@
+/* CSS global */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: #e1e1e6;
+  background-color: #121214;
+}
+
+/* Fim das globais */
+
+/* Cabeçalho da página */
+
+  .headerContainer {
+    width: 100vh;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .titlesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .principalTitle {
+    color: chartreuse;
+    font-size: 35px;
+    padding-left: 50px;
+  }
+
+  .secondaryTitle {
+    color: cyan;
+    font-size: 20px;
+    padding-left: 80px;
+  }
+
+/* Cabeçalho da página */
+
+/*   MainContent  */
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 40%;
+}
+
+.mainText {
+  color: #e1e1e6;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.imageCat {
+  border-radius: 10px;
+  box-shadow: #030329 3px 2px 2px 2px;
+}
+
+.catText {
+  color: #909097;
+}
+
+
+/*   MainContent  */
+
+
+/*  Aside content  */
+
+.asideContainer {
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*  Aside content  */
+
+/*  Footer content  */
+
+.footerContainer {
+  display: flex;
+  background-color: rgb(5, 5, 43);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
