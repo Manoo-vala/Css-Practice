@@ -36,7 +36,9 @@ body {
 
 .footerContainer {
   background-color: rgb(30, 36, 31);
-  border-radius: 1px solid red;
+  height: 50px;
+  color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .headerContainer {
