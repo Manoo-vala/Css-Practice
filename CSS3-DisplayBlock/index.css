@@ -1,0 +1,19 @@
+.example {
+  text-align: center;
+}
+
+.example-item {
+  display: inline;
+}
+
+.example-item-first {
+  background-color: blue;
+}
+
+.example-item-second {
+  background-color: rebeccapurple;
+}
+
+.example-item-third {
+  background-color: seagreen;
+}
