@@ -1,19 +1,25 @@
 .example {
+  color: #FFF;
   text-align: center;
 }
 
 .example-item {
-  display: inline;
+  display: block;
+  width: 33.333%;
+  height: 150px;
 }
 
-.example-item-first {
+.example-item_first {
   background-color: blue;
 }
 
-.example-item-second {
+.example-item_second {
   background-color: rebeccapurple;
+  margin-left: auto;
 }
 
-.example-item-third {
+.example-item_third {
   background-color: seagreen;
+  margin-left: auto;
+  margin-right: auto;
 }
