@@ -1,0 +1,30 @@
+.example {
+  color: #FFF;
+  text-align: center;
+}
+
+.example-item {
+  display: block;
+  width: 33.333%;
+  height: 150px;
+}
+
+.example-item_first {
+  background-color: blue;
+}
+
+.example-item_second {
+  background-color: rebeccapurple;
+  margin-left: auto;
+}
+
+.example-item_third {
+  background-color: seagreen;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.example-item_fourth {
+  background-color: yellow;
+  width: auto;
+}
