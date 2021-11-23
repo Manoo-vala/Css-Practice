@@ -1,0 +1,38 @@
+.example {
+  color: #213a44;
+  text-align: justify;
+}
+
+.example::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.example-item {
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+  text-align: left;
+}
+
+.example-item-first {
+  background-color: #F5F749;
+  box-shadow: #e1e2b7 2px 3px 3px 1px;
+}
+
+.example-item-second {
+  background-color: #F24236;
+  box-shadow: #e1e2b7 2px 3px 3px 3px;
+}
+
+.example-item-third {
+  background-color: #2E86AB;
+  box-shadow: #e1e2b7 2px 4px 5px 4px;
+}
+
+.text {
+  color: #213a44;
+  text-align: center;
+  font-size: 15px;
+}
