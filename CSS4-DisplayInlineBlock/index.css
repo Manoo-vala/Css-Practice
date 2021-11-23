@@ -1,0 +1,33 @@
+.example {
+  color: #FFF;
+  text-align: justify;
+}
+
+.example::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.example-item {
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+  text-align: left;
+}
+
+.example-item-first {
+  background-color: #FAA;
+}
+
+.example-item-second {
+  background-color: #57c7c3;
+}
+
+.example-item-third {
+  background-color: #389703;
+}
+
+.text {
+  text-align: center;
+}
