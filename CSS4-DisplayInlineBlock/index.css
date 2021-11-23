@@ -1,5 +1,5 @@
 .example {
-  color: #FFF;
+  color: #213a44;
   text-align: justify;
 }
 
@@ -17,18 +17,22 @@
 }
 
 .example-item-first {
-  background-color: #FAA;
+  background-color: #F5F749;
+  box-shadow: #e1e2b7 2px 3px 3px 1px;
 }
 
 .example-item-second {
-  background-color: #57c7c3;
+  background-color: #F24236;
+  box-shadow: #e1e2b7 2px 3px 3px 3px;
 }
 
 .example-item-third {
-  background-color: #389703;
+  background-color: #2E86AB;
+  box-shadow: #e1e2b7 2px 4px 5px 4px;
 }
 
 .text {
+  color: #213a44;
   text-align: center;
   font-size: 15px;
 }
